@@ -1,0 +1,22 @@
+{
+  "name": "pckgt1",
+  "version": "1.0.0",
+  "description": "this is pckg",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarolinaLevarne/0-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarolinaLevarne/0-assignment/issues"
+  },
+  "homepage": "https://github.com/KarolinaLevarne/0-assignment#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
