@@ -12,5 +12,6 @@ export default{
 <template>
 <div>
 <p>{{message}}</p>
+<NuxtLink to="/messages/add"> Add </NuxtLink>
 </div>
 </template>
