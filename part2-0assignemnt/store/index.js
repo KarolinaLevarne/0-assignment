@@ -7,6 +7,7 @@ export const state = () => ({
    export const mutations = {
     addMessage(state, newMessage) {
     state.messages.push(newMessage.message)
+    console.log(state)
     },
 
     addForm(state, formData){
@@ -35,7 +36,7 @@ export const state = () => ({
         data
         }
         let response = await axios(options);
-        commit('addForm', response.data);
+        commit('addForm', response.data.echo.formData);
         }
         }
    

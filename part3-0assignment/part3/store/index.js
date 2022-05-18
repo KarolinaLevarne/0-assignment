@@ -21,7 +21,7 @@ export const actions = {
             url: "https://86a4h9y007.execute-api.eu-west-1.amazonaws.com/development/nulmeting/todo",
             method: "GET",
             headers: {
-                "x-api-key": "key"
+                "x-api-key": "Zu2CEexUkRaB7kmk9t8OT3smDR26WOL48BXASI5s"
             }
         }
         try{let response = await axios(options);

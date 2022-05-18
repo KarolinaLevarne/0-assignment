@@ -9,7 +9,13 @@
          Submit
        </button>
     </form>
-    <p>{{message}}</p>
+    <ul>
+        <li v-for='mes in message' :key="mes.id">
+            {{ mes.name }}
+            {{ mes.surname }},
+            email: {{ mes.email }}
+        </li>
+    </ul>
 </div>
 </template>
 
@@ -36,3 +42,6 @@ export default {
 
         }
 </script>
+
+
+
